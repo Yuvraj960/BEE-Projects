@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce_app",
+  "version": "1.0.0",
+  "description": "This is the JS script prepared for CRUD operations which are performed in Ecommerce applications!",
+  "main": "script.js",
+  "scripts": {
+    "test": "nodemon script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuvraj960/BEE-Projects.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "postman"
+  ],
+  "author": "Yuvraj Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuvraj960/BEE-Projects/issues"
+  },
+  "homepage": "https://github.com/Yuvraj960/BEE-Projects#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0",
+    "nodemon": "^3.1.9"
+  }
+}

@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Ecommerce",
+    "collectionId": "59b58f55-c18b-407f-a666-e0273e31693b",
+    "dateExported": "2025-02-28T06:57:54.588Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d33075b6-ef54-4933-9a1b-0e451fc6ccc9",
+            "colId": "59b58f55-c18b-407f-a666-e0273e31693b",
+            "containerId": "",
+            "name": "Update Product",
+            "url": "http://127.0.0.1:3000/products/67c15c297e8e09c616ead1d0",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2025-02-28T06:52:12.138Z",
+            "modified": "2025-02-28T06:52:12.138Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Laptop\",\n    \"price\": 10000,\n    \"description\": \"High-end gaming laptop\",\n    \"category\": \"Electronics\",\n    \"stock\": 1000\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "503c070a-aed1-4bc8-bcf1-82091305aa0e",
+            "colId": "59b58f55-c18b-407f-a666-e0273e31693b",
+            "containerId": "",
+            "name": "Delete Product",
+            "url": "http://127.0.0.1:3000/products/67c153cd48e7b945d370e8f5",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2025-02-28T06:52:30.658Z",
+            "modified": "2025-02-28T06:52:30.658Z",
+            "headers": []
+        },
+        {
+            "_id": "4f9ee4f7-26de-4ada-ae1f-fb0afa294e73",
+            "colId": "59b58f55-c18b-407f-a666-e0273e31693b",
+            "containerId": "",
+            "name": "Get All Products",
+            "url": "http://127.0.0.1:3000/products",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-28T06:52:52.290Z",
+            "modified": "2025-02-28T06:52:52.290Z",
+            "headers": []
+        },
+        {
+            "_id": "0bccc516-2d91-43c5-8379-4b715a0de116",
+            "colId": "59b58f55-c18b-407f-a666-e0273e31693b",
+            "containerId": "",
+            "name": "Get Product by ID",
+            "url": "http://127.0.0.1:3000/products/67c15c297e8e09c616ead1d0",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-28T06:53:33.018Z",
+            "modified": "2025-02-28T06:53:33.018Z",
+            "headers": []
+        },
+        {
+            "_id": "067da75e-cfac-4745-8214-7ed9a01aeffc",
+            "colId": "59b58f55-c18b-407f-a666-e0273e31693b",
+            "containerId": "",
+            "name": "Add new Product",
+            "url": "http://127.0.0.1:3000/products",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2025-02-28T06:53:58.586Z",
+            "modified": "2025-02-28T06:53:58.586Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"Phone\",\r\n  \"price\": 9000,\r\n  \"description\": \"High-end gaming laptop\",\r\n  \"category\": \"Electronics\",\r\n  \"stock\": 100\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "cviCo2tSx6Z-fKmR9DgdexQvh6Ghxq5o69GO1fxPTIDaP4ynz2d51FxLVFB6wEsAlESXQiOeiDqrqYaT4XMCYQ"
+}

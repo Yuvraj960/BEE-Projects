@@ -1,0 +1,13 @@
+<%- include('../partials/header') %>
+
+  <h1>Add New Product</h1>
+  <form action="/products" method="POST" class="form">
+    <input name="name" placeholder="Product Name" required>
+    <textarea name="description" placeholder="Description"></textarea>
+    <input name="price" type="number" step="0.01" placeholder="Price" required>
+    <input name="category" placeholder="Category">
+    <input name="stock" type="number" placeholder="Stock">
+    <button type="submit" class="btn">Create</button>
+  </form>
+
+  <%- include('../partials/footer') %>

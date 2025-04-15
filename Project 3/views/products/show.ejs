@@ -1,0 +1,24 @@
+<%- include('../partials/header') %>
+
+  <a href="/products" class="btn">← Back to Products Page</a>
+
+  <h1>
+    <%= product.name %>
+  </h1>
+  <p>
+    <%= product.description %>
+  </p>
+  <p>Price: $<%= product.price %>
+  </p>
+  <p>Category: <%= product.category %>
+  </p>
+  <p>Stock: <%= product.stock %>
+  </p>
+
+  <a href="/products/<%= product._id %>/edit" class="btn">Edit</a>
+
+  <form action="/products/<%= product._id %>?_method=DELETE" method="POST" style="margin-top: 10px;">
+    <button class="btn danger">Delete</button>
+  </form>
+
+  <%- include('../partials/footer') %>
